@@ -1,0 +1,39 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="0" class="c3" element="C" mass="12.01078"/>
+  <Type name="1" class="c3" element="C" mass="12.01078"/>
+  <Type name="2" class="hc" element="H" mass="1.007947"/>
+  <Type name="3" class="hc" element="H" mass="1.007947"/>
+ </AtomTypes>
+ <Residues>
+  <Residue name="NBU">
+   <Atom name="C1" type="0"/>
+   <Atom name="H11" type="2"/>
+   <Atom name="H12" type="2"/>
+   <Atom name="H13" type="2"/>
+   <Atom name="C2" type="1"/>
+   <Atom name="H21" type="3"/>
+   <Atom name="H22" type="3"/>
+   <Atom name="C3" type="1"/>
+   <Atom name="H31" type="3"/>
+   <Atom name="H32" type="3"/>
+   <Atom name="C4" type="0"/>
+   <Atom name="H41" type="2"/>
+   <Atom name="H42" type="2"/>
+   <Atom name="H43" type="2"/>
+   ***FILL IN THE TOPOLOGY***
+  </Residue>
+ </Residues>
+ <HarmonicBondForce>
+  ***FILL IN THE BOND PARAMETERS***
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+  ***FILL IN THE ANGLE PARAMETERS***
+ </HarmonicAngleForce>
+ <PeriodicTorsionForce>
+  ***FILL IN THE TORSION PARAMETERS***
+ </PeriodicTorsionForce>
+ <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
+  ***FILL IN THE NONBONDED PARAMETERS***
+ </NonbondedForce>
+</ForceField>
